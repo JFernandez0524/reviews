@@ -32,9 +32,7 @@ const App = () => {
   };
 
   const getRandomPerson = () => {
-    const randomPerson = Math.floor(
-      Math.random() * (reviews.length - 1 - 0) + 0
-    );
+    const randomPerson = Math.floor(Math.random() * (reviews.length - 0) + 0);
     console.log(randomPerson);
     setIndex(randomPerson);
   };
